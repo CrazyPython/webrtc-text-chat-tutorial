@@ -28,7 +28,8 @@ let room;
 const configuration = {
   iceServers: [{
     url: 'stun:stun.l.google.com:19302'
-  }]
+  }],
+  ordered: false,
 };
 // RTCPeerConnection
 let pc;
